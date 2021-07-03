@@ -1,0 +1,62 @@
+lockfileVersion: 5.3
+
+specifiers:
+  async: '*'
+  base58-native: '*'
+  bignum: 0.13.1
+  multi-hashing: git://github.com/zone117x/node-multi-hashing.git
+
+dependencies:
+  async: 3.2.0
+  base58-native: 0.1.4
+  bignum: 0.13.1
+  multi-hashing: github.com/zone117x/node-multi-hashing/7ad4aa9f098a894f14c83a824d0afb1f274a798e
+
+packages:
+
+  /async/3.2.0:
+    resolution: {integrity: sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==}
+    dev: false
+
+  /base58-native/0.1.4:
+    resolution: {integrity: sha1-u5I0qN8mYtBLC3Fa7uH4mxX+8TQ=}
+    dependencies:
+      bignum: 0.13.1
+    dev: false
+
+  /bignum/0.13.1:
+    resolution: {integrity: sha512-sPtvw/knt6nmBm4fPgsu+FtNypM5y2Org723h9fAOl7UDgc8nyIbVbcBCatVR/nOJWCsKctSE14u+3bW5sAkFA==}
+    requiresBuild: true
+    dependencies:
+      bindings: 1.5.0
+      nan: 2.14.2
+      safe-buffer: 5.2.1
+    dev: false
+
+  /bindings/1.5.0:
+    resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    dependencies:
+      file-uri-to-path: 1.0.0
+    dev: false
+
+  /file-uri-to-path/1.0.0:
+    resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    dev: false
+
+  /nan/2.14.2:
+    resolution: {integrity: sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==}
+    dev: false
+
+  /safe-buffer/5.2.1:
+    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
+    dev: false
+
+  github.com/zone117x/node-multi-hashing/7ad4aa9f098a894f14c83a824d0afb1f274a798e:
+    resolution: {tarball: https://codeload.github.com/zone117x/node-multi-hashing/tar.gz/7ad4aa9f098a894f14c83a824d0afb1f274a798e}
+    name: multi-hashing
+    version: 1.0.0
+    requiresBuild: true
+    dependencies:
+      bindings: 1.5.0
+      nan: 2.14.2
+    dev: false
